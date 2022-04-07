@@ -41,7 +41,7 @@ if(!play){
     if(tempWord === newWords){
         // console.log('correct');
         play = false;
-        msg.innerHTML = `Awesome Its correct it is ${newWords}.`;
+        msg.innerHTML = `Awesome!!! Its correct it is ${newWords}.`;
         btn.innerHTML = "Next Word";
         guess.classList.toggle('hidden');
         guess.value="";
